@@ -1,0 +1,13 @@
+uuid: dba474a7-45c1-43f8-b574-6217517336ca
+langcode: en
+status: true
+dependencies: {  }
+id: actor_picture_style
+label: 'Actor Picture Style'
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image_1
+field_map: {  }

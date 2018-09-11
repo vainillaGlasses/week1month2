@@ -1,0 +1,15 @@
+uuid: 0946c42a-e189-429f-9475-d393d0a979cf
+langcode: en
+status: true
+dependencies: {  }
+name: actor_picture
+label: 'Actor Picture Style'
+effects:
+  72165fec-f587-4705-b404-f83036a1e93b:
+    uuid: 72165fec-f587-4705-b404-f83036a1e93b
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 140
+      height: 200
+      anchor: center-center

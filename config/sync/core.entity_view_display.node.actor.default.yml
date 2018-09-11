@@ -1,0 +1,75 @@
+uuid: ed1e40f8-6bf6-4a69-ab0c-607ab1fa0cd6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.actor.field_actor_bio
+    - field.field.node.actor.field_actor_birth_name_
+    - field.field.node.actor.field_actor_birthday
+    - field.field.node.actor.field_actor_born_in
+    - field.field.node.actor.field_actor_height
+    - field.field.node.actor.field_actor_picture
+    - node.type.actor
+  module:
+    - datetime
+    - user
+id: node.actor.default
+targetEntityType: node
+bundle: actor
+mode: default
+content:
+  field_actor_bio:
+    weight: 5
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_actor_birth_name_:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_actor_birthday:
+    weight: 1
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_actor_born_in:
+    weight: 4
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_actor_height:
+    weight: 2
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_actor_picture:
+    type: entity_reference_entity_view
+    weight: 3
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+hidden:
+  links: true

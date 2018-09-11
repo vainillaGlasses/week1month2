@@ -1,0 +1,19 @@
+uuid: 244ff6b3-083d-4cb2-baa2-b4639151dfac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_actor_birth_name_
+    - node.type.actor
+id: node.actor.field_actor_birth_name_
+field_name: field_actor_birth_name_
+entity_type: node
+bundle: actor
+label: "Birth Name\t"
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,28 @@
+uuid: fddf6837-9d04-47d4-ab69-6f3347c34ef8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_actor_picture
+    - media.type.actor_picture_style
+    - node.type.actor
+id: node.actor.field_actor_picture
+field_name: field_actor_picture
+entity_type: node
+bundle: actor
+label: Picture
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      actor_picture_style: actor_picture_style
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

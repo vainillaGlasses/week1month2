@@ -1,0 +1,80 @@
+uuid: 9af762de-3d47-4d47-ac1f-fcff8dc8745b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.actor.field_actor_bio
+    - field.field.node.actor.field_actor_birth_name_
+    - field.field.node.actor.field_actor_birthday
+    - field.field.node.actor.field_actor_born_in
+    - field.field.node.actor.field_actor_height
+    - field.field.node.actor.field_actor_picture
+    - node.type.actor
+  module:
+    - datetime
+id: node.actor.default
+targetEntityType: node
+bundle: actor
+mode: default
+content:
+  field_actor_bio:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_actor_birth_name_:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_actor_birthday:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_actor_born_in:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_actor_height:
+    weight: 3
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_actor_picture:
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true
