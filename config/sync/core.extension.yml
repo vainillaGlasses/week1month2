@@ -1,10 +1,12 @@
 module:
   block: 0
+  block_content: 0
   breakpoint: 0
   ckeditor: 0
   color: 0
   config: 0
   contextual: 0
+  ctools: 0
   datetime: 0
   dblog: 0
   dynamic_page_cache: 0
@@ -15,12 +17,20 @@ module:
   filter: 0
   help: 0
   image: 0
+  inline_entity_form: 0
+  inline_form_errors: 0
+  layout_discovery: 0
   link: 0
+  media: 0
   menu_link_content: 0
   menu_ui: 0
   node: 0
   options: 0
   page_cache: 0
+  page_manager: 0
+  page_manager_ui: 0
+  panels: 0
+  panels_ipe: 0
   path: 0
   quickedit: 0
   search: 0
