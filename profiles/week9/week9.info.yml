@@ -1,0 +1,17 @@
+name: week9
+type: profile
+description: 'Installation profile for week9.'
+core: '8.x'
+dependencies:
+  - node
+  - block
+  - breakpoint
+  - config
+  - page_cache
+  - dynamic_page_cache
+  - dblog
+  - search
+  - toolbar
+themes:
+  - bartik
+  - seven
