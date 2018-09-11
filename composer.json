@@ -20,7 +20,9 @@
     "drupal/core": "8.6.1",
     "drupal/inline_entity_form": "^1.0@RC",
     "drupal/panels": "^4.3",
-    "drupal/page_manager": "^4.0@beta"
+    "drupal/page_manager": "^4.0@beta",
+    "drupal/admin_toolbar": "^1.24",
+    "drupal/devel": "^1.2"
   },
   "require-dev": {
     "TestDrupal/BehatExtension": "dev-update",
