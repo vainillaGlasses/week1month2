@@ -1,0 +1,19 @@
+uuid: d4e1493e-4fb6-473a-90d6-c72bde4dee65
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_movie_produced_by
+    - node.type.movie
+id: node.movie.field_movie_produced_by
+field_name: field_movie_produced_by
+entity_type: node
+bundle: movie
+label: 'Produced by'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

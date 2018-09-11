@@ -1,0 +1,19 @@
+uuid: 9a507158-70c8-4974-abae-3a3411e94ad0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_movie_cinematography_by_
+    - node.type.movie
+id: node.movie.field_movie_cinematography_by_
+field_name: field_movie_cinematography_by_
+entity_type: node
+bundle: movie
+label: 'Cinematography by '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

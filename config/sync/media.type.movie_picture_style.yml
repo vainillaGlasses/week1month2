@@ -1,0 +1,13 @@
+uuid: cc44866a-d70d-44c8-a744-4da437fbbb7f
+langcode: en
+status: true
+dependencies: {  }
+id: movie_picture_style
+label: 'Movie Picture Style'
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image
+field_map: {  }

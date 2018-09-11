@@ -1,0 +1,36 @@
+uuid: d63cf235-47d0-4c21-a3d9-7ea354fb1365
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.movie.field_movie_cinematography_by_
+    - field.field.node.movie.field_movie_director
+    - field.field.node.movie.field_movie_genre
+    - field.field.node.movie.field_movie_music_by
+    - field.field.node.movie.field_movie_picture
+    - field.field.node.movie.field_movie_produced_by
+    - field.field.node.movie.field_movie_writers
+    - field.field.node.movie.field_movie_year
+    - node.type.movie
+  module:
+    - user
+id: node.movie.teaser
+targetEntityType: node
+bundle: movie
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_movie_cinematography_by_: true
+  field_movie_director: true
+  field_movie_genre: true
+  field_movie_music_by: true
+  field_movie_picture: true
+  field_movie_produced_by: true
+  field_movie_writers: true
+  field_movie_year: true

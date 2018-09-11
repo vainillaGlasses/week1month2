@@ -1,0 +1,98 @@
+uuid: 3273bc6a-3629-419f-917f-5cd116096459
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.movie.field_movie_actor
+    - field.field.node.movie.field_movie_cinematography_by_
+    - field.field.node.movie.field_movie_director
+    - field.field.node.movie.field_movie_genre
+    - field.field.node.movie.field_movie_music_by
+    - field.field.node.movie.field_movie_picture
+    - field.field.node.movie.field_movie_produced_by
+    - field.field.node.movie.field_movie_writers
+    - field.field.node.movie.field_movie_year
+    - node.type.movie
+  module:
+    - user
+id: node.movie.default
+targetEntityType: node
+bundle: movie
+mode: default
+content:
+  field_movie_actor:
+    weight: 8
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_movie_cinematography_by_:
+    weight: 7
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_movie_director:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_movie_genre:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_movie_music_by:
+    weight: 6
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_movie_picture:
+    type: entity_reference_entity_view
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_movie_produced_by:
+    weight: 5
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_movie_writers:
+    weight: 4
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_movie_year:
+    weight: 2
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+hidden:
+  links: true

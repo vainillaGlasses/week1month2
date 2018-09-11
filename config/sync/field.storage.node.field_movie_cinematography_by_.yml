@@ -1,0 +1,21 @@
+uuid: 341eb4b3-5c60-460d-9c30-f6c53b5b08f9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_movie_cinematography_by_
+field_name: field_movie_cinematography_by_
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

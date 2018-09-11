@@ -1,0 +1,29 @@
+uuid: d5ab642d-648d-4f2a-a212-5d0eb182070b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_movie_picture
+    - media.type.movie_picture_style
+    - node.type.movie
+id: node.movie.field_movie_picture
+field_name: field_movie_picture
+entity_type: node
+bundle: movie
+label: Picture
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      movie_picture_style: movie_picture_style
+    sort:
+      field: name
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

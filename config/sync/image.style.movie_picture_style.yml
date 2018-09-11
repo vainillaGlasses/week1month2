@@ -1,0 +1,15 @@
+uuid: 0091bdf4-9c5d-45aa-ab69-5fba60e0142e
+langcode: en
+status: true
+dependencies: {  }
+name: movie_picture_style
+label: 'Movie Picture Style'
+effects:
+  0037e923-5af1-4821-a3c6-6ac81f70e4af:
+    uuid: 0037e923-5af1-4821-a3c6-6ac81f70e4af
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 300
+      height: 300
+      anchor: center-center
