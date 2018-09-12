@@ -22,7 +22,8 @@
     "drupal/panels": "^4.3",
     "drupal/page_manager": "^4.0@beta",
     "drupal/admin_toolbar": "^1.24",
-    "drupal/devel": "^1.2"
+    "drupal/devel": "^1.2",
+    "drupal/dropzonejs": "^2.0@alpha"
   },
   "require-dev": {
     "TestDrupal/BehatExtension": "dev-update",
